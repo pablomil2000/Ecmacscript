@@ -21,54 +21,34 @@ do {
     if (camb >= 5000) {
         vec.set(5000, vec.get(5000) + 1);
         camb = camb - 5000;
-    }
-
-    if (camb >= 2000) {
+    } else if (camb >= 2000) {
         vec.set(2000, vec.get(2000) + 1);
         camb = camb - 2000;
-    }
-
-    if (camb >= 1000) {
+    } else if (camb >= 1000) {
         vec.set(1000, vec.get(1000) + 1);
         camb = camb - 1000;
-    }
-
-    if (camb >= 500) {
+    } else if (camb >= 500) {
         vec.set(500, vec.get(500) + 1);
         camb = camb - 500;
-    }
-
-    if (camb >= 200) {
+    } else if (camb >= 200) {
         vec.set(200, vec.get(200) + 1);
         camb = camb - 200;
-    }
-
-    if (camb >= 100) {
+    } else if (camb >= 100) {
         vec.set(100, vec.get(100) + 1);
         camb = camb - 100;
-    }
-
-    if (camb >= 50) {
+    } else if (camb >= 50) {
         vec.set(50, vec.get(50) + 1);
         camb = camb - 50;
-    }
-
-    if (camb >= 25) {
+    } else if (camb >= 25) {
         vec.set(25, vec.get(25) + 1);
         camb = camb - 25
-    }
-
-    if (camb >= 10) {
+    } else if (camb >= 10) {
         vec.set(10, vec.get(10) + 1);
         camb = camb - 10
-    }
-
-    if (camb >= 5) {
+    } else if (camb >= 5) {
         vec.set(5, vec.get(5) + 1);
         camb = camb - 50
-    }
-
-    if (camb >= 1) {
+    } else if (camb >= 1) {
         vec.set(1, vec.get(1) + 1);
         camb = camb - 1
     }
